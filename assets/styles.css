@@ -6,11 +6,11 @@
 
 :root {
   color-scheme: light;
-  --huji-burgundy: #801324;
-  --huji-teal: #1e7a86;
-  --huji-mint: #5ab899;
-  --huji-green: #00544b;
-  --huji-blue: #329ab7;
+  --huji-burgundy: #9a1732;
+  --huji-teal: #168b98;
+  --huji-mint: #4ec4a3;
+  --huji-green: #006a60;
+  --huji-blue: #249fc1;
   --ink: #171717;
   --muted: #405f64;
   --line: #d6ded8;
@@ -111,8 +111,8 @@ nav a {
 
 nav a[aria-current="page"] {
   color: var(--culture);
-  border-color: rgba(128, 19, 36, 0.24);
-  background: rgba(128, 19, 36, 0.06);
+  border-color: rgba(154, 23, 50, 0.24);
+  background: rgba(154, 23, 50, 0.06);
   font-weight: 700;
 }
 
@@ -726,7 +726,7 @@ main {
 .project-card:hover,
 .person-card:hover,
 .publication-card:hover {
-  border-color: rgba(30, 122, 134, 0.45);
+  border-color: rgba(22, 139, 152, 0.45);
   box-shadow: 0 10px 24px rgba(23, 23, 23, 0.045);
   transform: translateY(-1px);
 }
@@ -857,6 +857,14 @@ main {
 .directory-grid .person-card .card-accent {
   margin: -18px -18px 0;
   width: calc(100% + 36px);
+}
+
+.member-directory-grid .person-card:nth-child(3n + 2) .card-accent {
+  background: var(--space);
+}
+
+.member-directory-grid .person-card:nth-child(3n + 3) .card-accent {
+  background: var(--information);
 }
 
 .directory-grid .person-card h3,
@@ -1203,7 +1211,7 @@ main {
 }
 
 .keyword-chip {
-  border-color: rgba(30, 122, 134, 0.24);
+  border-color: rgba(22, 139, 152, 0.24);
   background: var(--band);
   color: var(--space-strong);
   font-size: 0.83rem;

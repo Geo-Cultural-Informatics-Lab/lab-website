@@ -16,11 +16,11 @@ The website should feel academic, spatial, computational, and human-facing. Colo
 
 | Role | Color | Hex | Use |
 | --- | --- | --- | --- |
-| Culture | HUJI burgundy | `#801324` | Culture, people, community, primary emphasis |
-| Space | HUJI teal | `#1E7A86` | Spatial forms, morphology, patterns, relations, processes, links |
-| Space support | HUJI mint | `#5AB899` | Diagrams, subtle spatial accents |
-| Space anchor | Deep green | `#00544B` | Section headings, spatial detail emphasis |
-| Information | HUJI blue | `#329AB7` | GIS, maps, data, code, computation, methods |
+| Culture | HUJI burgundy | `#9A1732` | Culture, people, community, primary emphasis |
+| Space | HUJI teal | `#168B98` | Spatial forms, morphology, patterns, relations, processes, links |
+| Space support | HUJI mint | `#4EC4A3` | Diagrams, subtle spatial accents |
+| Space anchor | Deep green | `#006A60` | Section headings, spatial detail emphasis |
+| Information | HUJI blue | `#249FC1` | GIS, maps, data, code, computation, methods |
 | Paper | Warm paper | `#F7F4ED` | Page background |
 | Surface | Warm white | `#FFFDF8` | Cards, panels, header/footer |
 | Ink | Near black | `#171717` | Main text |
